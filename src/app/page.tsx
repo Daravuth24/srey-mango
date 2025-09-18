@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/Button";
 import { Card, CardContent } from "@/components/ui/Card";
-import products from "@/app/data/products.json";
-import experiences from "@/app/data/experiences.json";
+import products from "@/app/data/home-page/products.json";
+import experiences from "@/app/data/home-page/experiences.json";
 
 export default function HomePage() {
   return (
