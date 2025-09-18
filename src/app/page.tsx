@@ -1,4 +1,5 @@
 import { Navbar } from "@/app/components/navbar"
+import { Footer } from "@/app/components/footer"
 
 export default function HomePage() {
   return (
@@ -17,6 +18,8 @@ export default function HomePage() {
           </div>
         </div>
       </main>
+
+      <Footer />
     </div>
   )
 }
