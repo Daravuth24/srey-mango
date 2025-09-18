@@ -60,7 +60,7 @@ const upcomingExperiences = [
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-amber-50">
+    <div className="min-h-screen bg-brand-cream">
       
 
       <main className="pt-16">
@@ -77,7 +77,7 @@ export default function HomePage() {
               communities.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button className="bg-amber-500 hover:bg-amber-600 text-white px-8 py-3 text-lg">Shop Collection</Button>
+              <Button className="btn-primary">Shop Collection</Button>
               <Button
                 variant="outline"
                 className="bg-white/10 border-white text-white hover:bg-white hover:text-gray-800 px-8 py-3 text-lg"
@@ -91,14 +91,14 @@ export default function HomePage() {
         {/* Featured Products Section */}
         <section className="py-16 px-4 max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">Featured Products</h2>
-            <p className="text-gray-600">
+            <h2 className="section-heading">Featured Products</h2>
+            <p className="section-subheading">
               Handcrafted treasures made from upcycled mango seeds and natural ingredients
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {featuredProducts.map((product) => (
-              <Card key={product.id} className="bg-white shadow-lg hover:shadow-xl transition-shadow">
+              <Card key={product.id} className="card-hover">
                 <div className="aspect-square overflow-hidden">
                   <img
                     src={product.image || "/placeholder.svg"}
@@ -107,12 +107,12 @@ export default function HomePage() {
                   />
                 </div>
                 <CardContent className="p-6">
-                  <div className="text-sm text-emerald-600 font-medium mb-2">{product.category}</div>
-                  <h3 className="text-xl font-semibold text-gray-800 mb-2">{product.name}</h3>
-                  <p className="text-gray-600 mb-4 text-sm">{product.description}</p>
+                  <div className="product-category mb-2">{product.category}</div>
+                  <h3 className="text-xl font-semibold text-brand-primary mb-2">{product.name}</h3>
+                  <p className="text-brand-secondary mb-4 text-sm">{product.description}</p>
                   <div className="flex items-center justify-between">
-                    <span className="text-2xl font-bold text-gray-800">{product.price}</span>
-                    <Button className="bg-amber-500 hover:bg-amber-600 text-white">Add to Cart</Button>
+                    <span className="product-price">{product.price}</span>
+                    <Button className="btn-primary">Add to Cart</Button>
                   </div>
                 </CardContent>
               </Card>
@@ -127,16 +127,16 @@ export default function HomePage() {
               <img src="/cambodian-mango-farm-sustainable-farming.jpg" alt="Cambodian mango farm" className="w-full h-full object-cover" />
             </div>
             <div>
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">From Our Farm to Your Home</h2>
-              <p className="text-gray-600 mb-4">
+              <h2 className="section-heading mb-6">From Our Farm to Your Home</h2>
+              <p className="text-brand-secondary mb-4">
                 We believe in sustainability and the power of every Srey Mango product comes with a promise of quality
                 and a connection to the land and the hands that nurtured it. From reducing food waste by transforming
                 mango seeds into beautiful products to supporting local farmers.
               </p>
-              <p className="text-gray-600 mb-6">
+              <p className="text-brand-secondary mb-6">
                 Every treasure goes the distance, and embraced the deeper parts making each every moment count.
               </p>
-              <Button className="bg-emerald-600 hover:bg-emerald-700 text-white">Learn Our Story</Button>
+              <Button className="btn-secondary">Learn Our Story</Button>
             </div>
           </div>
         </section>
@@ -144,14 +144,14 @@ export default function HomePage() {
         {/* Upcoming Experiences Section */}
         <section className="py-16 px-4 max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">Upcoming Experiences</h2>
-            <p className="text-gray-600">
+            <h2 className="section-heading">Upcoming Experiences</h2>
+            <p className="section-subheading">
               Immerse yourself in Cambodian culture and our mission with these unique experiences
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
             {upcomingExperiences.map((experience) => (
-              <Card key={experience.id} className="bg-white shadow-lg hover:shadow-xl transition-shadow">
+              <Card key={experience.id} className="card-hover">
                 <div className="aspect-[3/2] overflow-hidden">
                   <img
                     src={experience.image || "/placeholder.svg"}
@@ -160,8 +160,8 @@ export default function HomePage() {
                   />
                 </div>
                 <CardContent className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-800 mb-3">{experience.title}</h3>
-                  <div className="space-y-2 mb-4 text-sm text-gray-600">
+                  <h3 className="text-xl font-semibold text-brand-primary mb-3">{experience.title}</h3>
+                  <div className="space-y-2 mb-4 text-sm text-brand-secondary">
                     <div className="flex items-center gap-2">
                       <span>📅</span>
                       <span>{experience.date}</span>
@@ -173,10 +173,10 @@ export default function HomePage() {
                   </div>
                   <div className="flex items-center justify-between">
                     <div>
-                      <span className="text-2xl font-bold text-gray-800">{experience.price}</span>
-                      <span className="text-gray-600 text-sm"> / {experience.priceUnit}</span>
+                      <span className="product-price">{experience.price}</span>
+                      <span className="text-brand-secondary text-sm"> / {experience.priceUnit}</span>
                     </div>
-                    <Button className="bg-amber-500 hover:bg-amber-600 text-white">Book Now</Button>
+                    <Button className="btn-primary">Book Now</Button>
                   </div>
                 </CardContent>
               </Card>
@@ -185,7 +185,7 @@ export default function HomePage() {
         </section>
 
         {/* NFT Membership Section */}
-        <section className="py-16 px-4 bg-emerald-600 text-white">
+        <section className="py-16 px-4 bg-brand-secondary text-white">
           <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
             <div>
               <div className="text-sm font-medium mb-2">Limited Membership</div>
@@ -213,7 +213,7 @@ export default function HomePage() {
                   <span>Share in harvest rewards</span>
                 </li>
               </ul>
-              <Button className="bg-amber-500 hover:bg-amber-600 text-white">Join Now & Mint</Button>
+              <Button className="btn-primary">Join Now & Mint</Button>
             </div>
             <div className="aspect-square overflow-hidden rounded-lg">
               <img src="/nft-membership-card-cambodian-forest.jpg" alt="NFT Membership" className="w-full h-full object-cover" />
@@ -224,8 +224,8 @@ export default function HomePage() {
         {/* Personalized Recommendations Section */}
         <section className="py-16 px-4 max-w-7xl mx-auto">
           <div className="text-center">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">Just For You</h2>
-            <p className="text-gray-600 mb-8">
+            <h2 className="section-heading">Just For You</h2>
+            <p className="section-subheading mb-8">
               Based on your interests, here are some products and experiences we think you'll love.
             </p>
             <div className="bg-gray-100 rounded-lg p-12">
