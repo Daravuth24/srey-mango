@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Mango Seed Soap",
+    "category": "Body Care",
+    "description": "Handcrafted soap made from upcycled mango seeds with natural moisturizing properties.",
+    "price": "$8.50",
+    "image": "/handmade-mango-seed-soap-bar.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Sun-Dried Mango Slices",
+    "category": "Snacks",
+    "description": "Premium dried mango slices, naturally sweet and packed with vitamins.",
+    "price": "$12.00",
+    "image": "/dried-mango-slices-in-bowl.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Spicy Mango Chili Sauce",
+    "category": "Condiments",
+    "description": "Bold and flavorful sauce combining sweet mangoes with Cambodian chilies.",
+    "price": "$9.50",
+    "image": "/spicy-mango-chili-sauce-bottle.jpg"
+  }
+]
