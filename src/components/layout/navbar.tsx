@@ -16,12 +16,12 @@ export function Navbar() {
   ]
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-amber-50 border-b border-amber-100">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-brand-cream border-b border-amber-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <a href="/" className="text-xl font-bold text-gray-800 hover:text-emerald-600 transition-colors">
+            <a href="/" className="text-xl font-bold nav-link">
               Srey Mango
             </a>
           </div>
@@ -33,7 +33,7 @@ export function Navbar() {
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-gray-800 hover:text-emerald-600 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                  className="nav-link px-3 py-2 text-sm font-medium"
                 >
                   {link.name}
                 </a>
@@ -44,13 +44,13 @@ export function Navbar() {
           {/* Right side icons */}
           <div className="flex items-center space-x-4">
             {/* Search Icon */}
-            <Button variant="ghost" size="sm" className="text-gray-800 hover:text-emerald-600 hover:bg-amber-100">
+            <Button variant="ghost" size="sm" className="nav-link hover:bg-amber-100">
               <Search className="h-5 w-5" />
               <span className="sr-only">Search</span>
             </Button>
 
             {/* Cart Icon */}
-            <Button variant="ghost" size="sm" className="text-gray-800 hover:text-emerald-600 hover:bg-amber-100">
+            <Button variant="ghost" size="sm" className="nav-link hover:bg-amber-100">
               <ShoppingCart className="h-5 w-5" />
               <span className="sr-only">Shopping cart</span>
             </Button>
@@ -61,7 +61,7 @@ export function Navbar() {
                 variant="ghost"
                 size="sm"
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="text-gray-800 hover:text-emerald-600 hover:bg-amber-100"
+                className="nav-link hover:bg-amber-100"
               >
                 {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
                 <span className="sr-only">Toggle menu</span>
@@ -73,12 +73,12 @@ export function Navbar() {
         {/* Mobile Navigation Menu */}
         {isMenuOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 bg-amber-50 border-t border-amber-100">
+            <div className="px-2 pt-2 pb-3 space-y-1 bg-brand-cream border-t border-amber-100">
               {navLinks.map((link) => (
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-gray-800 hover:text-emerald-600 hover:bg-amber-100 block px-3 py-2 text-base font-medium transition-colors duration-200 rounded-md"
+                  className="nav-link hover:bg-amber-100 block px-3 py-2 text-base font-medium rounded-md"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {link.name}
