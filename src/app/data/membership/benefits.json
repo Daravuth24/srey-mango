@@ -1,26 +1,34 @@
 [
   {
-    "title": "Year-Round Discounts",
-    "description": "Receive an exclusive 15% discount on all Srey Mango products, all year long."
+    "title": "Seasonal Mango Box Delivery",
+    "description": "Receive a curated box of fresh mangoes and artisanal products delivered to your door each harvest season."
   },
   {
-    "title": "Priority Experience Booking",
-    "description": "Get early access to book our popular farm experiences before they open to the public."
+    "title": "Farm-to-Table Connection",
+    "description": "Get personalized updates from your adopted farmer family, including photos and stories from the harvest."
   },
   {
-    "title": "Share of the Harvest",
-    "description": "Earn loyalty points based on the success of the mango harvest, redeemable for products."
+    "title": "Member-Only Products",
+    "description": "Access exclusive limited-edition products made from your sponsored farm's harvest before they're available to the public."
   },
   {
-    "title": "Exclusive Access",
-    "description": "Be invited to NFT-holder-only events, including virtual tastings and Q&As with farmers."
+    "title": "Annual Farm Visit Experience",
+    "description": "Enjoy a complimentary guided tour of your sponsored farm, including hands-on mango picking and traditional cooking class."
   },
   {
-    "title": "Digital Collectible",
-    "description": "Own a unique piece of digital art representing your support for our 2025 season."
+    "title": "Community Impact Reports",
+    "description": "Receive quarterly reports showing exactly how your membership is supporting sustainable farming and local communities."
   },
   {
-    "title": "Direct Impact",
-    "description": "Your minting fee directly funds our sustainable farming initiatives and community support."
+    "title": "Member Recognition",
+    "description": "Your name will be displayed on a beautiful recognition board at your sponsored farm (with your permission)."
+  },
+  {
+    "title": "Priority Event Access",
+    "description": "Get first access to book our harvest festivals, cooking workshops, and cultural experiences."
+  },
+  {
+    "title": "Tax Benefits",
+    "description": "Your membership contribution may qualify for charitable tax deductions (consult your tax advisor)."
   }
 ]
