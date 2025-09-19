@@ -123,39 +123,37 @@ export default function HomePage() {
             ))}
           </div>
         </section>
-        {/* NFT Membership Section */}
+        {/* Farm Adoption Section */}
         <section className="py-16 px-4 bg-brand-secondary text-white">
           <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="text-sm font-medium mb-2">Limited Membership</div>
-              <h2 className="text-3xl font-bold mb-6">Become a 2025 Season NFT Holder</h2>
+              <div className="text-sm font-medium mb-2">Farm Adoption Program</div>
+              <h2 className="text-3xl font-bold mb-6">Adopt a Cambodian Mango Farm</h2>
               <p className="mb-6">
-                Join the Srey Mango family and own exclusive NFT as a member, you'll get access to the latest perks,
-                discounts, and a share of the harvest through our points system to boost your membership for a
-                sustainable future.
+                Support sustainable farming in Cambodia through our farm adoption program. Receive seasonal harvest boxes, connect directly with farming families, and make a meaningful impact while enjoying exclusive products and experiences.
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-amber-400 rounded-full"></span>
-                  <span>Priority booking for experiences</span>
+                  <span>Seasonal mango box deliveries</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-amber-400 rounded-full"></span>
-                  <span>Early access to new products</span>
+                  <span>Personal updates from your adopted farm</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-amber-400 rounded-full"></span>
-                  <span>Access to exclusive events</span>
+                  <span>Exclusive member-only products</span>
                 </li>
                 <li className="flex items-center gap-3">
                   <span className="w-2 h-2 bg-amber-400 rounded-full"></span>
-                  <span>Share in harvest rewards</span>
+                  <span>Annual farm visit experience</span>
                 </li>
               </ul>
-              <Button className="btn-primary">Join Now & Mint</Button>
+              <Button className="btn-primary">Adopt a Farm Today</Button>
             </div>
             <div className="aspect-square overflow-hidden rounded-lg">
-              <img src="/nft-membership-card-cambodian-forest.jpg" alt="NFT Membership" className="w-full h-full object-cover" />
+              <img src="/membership-card-cambodian-forest.jpg" alt="Farm Adoption Program" className="w-full h-full object-cover" />
             </div>
           </div>
         </section>
