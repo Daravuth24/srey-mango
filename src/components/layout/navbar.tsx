@@ -12,7 +12,7 @@ export function Navbar() {
     { name: "Products", href: "/products" },
     { name: "Experiences", href: "/experiences" },
     { name: "Our Farmers", href: "/farmers" },
-    { name: "NFT Membership", href: "/nft-membership" },
+    { name: "Membership", href: "/membership" },
   ]
 
   return (

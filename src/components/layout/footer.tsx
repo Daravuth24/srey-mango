@@ -65,7 +65,7 @@ export function Footer() {
               </li>
               <li>
                 <a href="#" className="nav-link text-sm">
-                  NFT Membership
+                  Membership
                 </a>
               </li>
             </ul>
