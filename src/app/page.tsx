@@ -10,7 +10,7 @@ export default function HomePage() {
         {/* Hero Section */}
         <section
           className="relative h-screen flex items-center justify-center bg-cover bg-center"
-          style={{ backgroundImage: "url('/mango-tree-floating-on-water-cambodia-nature.jpg')" }}
+          style={{ backgroundImage: `url('/mango-farm-cambodia-nature.jpg')` }}
         >
           <div className="absolute inset-0 bg-black bg-opacity-30"></div>
           <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
@@ -152,8 +152,8 @@ export default function HomePage() {
               </ul>
               <Button className="btn-primary">Adopt a Farm Today</Button>
             </div>
-            <div className="aspect-square overflow-hidden rounded-lg">
-              <img src="/membership-card-cambodian-forest.jpg" alt="Farm Adoption Program" className="w-full h-full object-cover" />
+            <div className="aspect-square overflow-hidden rounded-lg max-w-md mx-auto">
+              <img src="/membership-card-cambodian-forest.jpg" alt="Farm Adoption Program" className="w-full h-full object-contain" />
             </div>
           </div>
         </section>
