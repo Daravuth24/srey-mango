@@ -12,8 +12,8 @@ export default function Membership() {
           <div className="relative flex-shrink-0">
             <div className="w-80 h-80 rounded-full overflow-hidden">
               <img
-                src="/person-in-cambodian-forest-with-mango-trees.jpg"
-                alt="Person in Cambodian forest"
+                src="/raw-mango-fruit-tree.jpg"
+                alt="Mango Fruit Tree"
                 className="w-full h-full object-cover"
               />
             </div>
