@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "name": "Mango & Passion Fruit Jam",
+    "category": "Jams & Spreads",
+    "description": "A tropical explosion of flavor, perfect on toast or with yogurt.",
+    "price": 8.5,
+    "image": "/mango-passion-fruit-jam.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Sun-dried Mango Slices",
+    "category": "Snacks",
+    "description": "Chewy, sweet, and naturally preserved. A healthy tropical snack.",
+    "price": 12.0,
+    "image": "/sun-dried-mango-slices.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Spicy Mango Chili Sauce",
+    "category": "Sauces",
+    "description": "The perfect balance of sweet and heat to elevate any dish.",
+    "price": 7.0,
+    "image": "/spicy-mango-chili-sauce.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Handcrafted Mango Soap",
+    "category": "Body Care",
+    "description": "Nourish your skin with the gentle, fragrant lather of natural mango.",
+    "price": 6.5,
+    "image": "/handmade-mango-seed-soap-bar.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Artisanal Mango Vinegar",
+    "category": "Pantry",
+    "description": "A bright, fruity vinegar for salads, marinades, and shrubs.",
+    "price": 15.0,
+    "image": "/artisanal-mango-vinegar.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Mango Seed Body Scrub",
+    "category": "Body Care",
+    "description": "Exfoliate and moisturize with our gentle mango seed scrub.",
+    "price": 9.75,
+    "image": "/mango-seed-body-scrub.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Mango Leaf Tea",
+    "category": "Beverages",
+    "description": "A soothing herbal tea with antioxidant properties.",
+    "price": 11.25,
+    "image": "/mango-leaf-tea.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Mango Seed Oil",
+    "category": "Body Care",
+    "description": "Pure, cold-pressed oil for skin and hair nourishment.",
+    "price": 18.0,
+    "image": "/mango-seed-oil.jpg"
+  }
+]
