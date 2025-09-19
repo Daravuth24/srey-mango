@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "name": "Sokha",
+      "location": "Kampong Speu Province",
+      "image": "/placeholder-kuues.png",
+      "bio": "A third-generation mango farmer, Sokha's passion is preserving the unique flavor of the Kor Romeat mango. Her farm is a haven of biodiversity."
+    },
+    {
+      "id": 2,
+      "name": "Nary",
+      "location": "Battambang Province",
+      "image": "/placeholder-1c09u.png",
+      "bio": "Nary champions innovative organic farming techniques, ensuring his mangoes are as pure as they are delicious. He loves sharing his knowledge with others."
+    },
+    {
+      "id": 3,
+      "name": "Chantha",
+      "location": "Kampot Province",
+      "image": "/placeholder-8kly1.png",
+      "bio": "Chantha's family has been farming the same land for over a century. He specializes in growing the sweetest mangoes, perfect for our dried fruit snacks."
+    }
+  ]

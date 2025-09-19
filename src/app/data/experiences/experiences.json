@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "title": "Annual Mango Harvest Festival",
+    "date": "August 15, 2025",
+    "location": "Siem Reap, Cambodia",
+    "price": 25.0,
+    "image": "/mango-harvest-festival-cambodia.jpg",
+    "description":
+      "Join us for a celebration of the mango harvest season with traditional music, food, and cultural activities."
+  },
+  {
+    "id": 2,
+    "title": "Farm-to-Table Cooking Class",
+    "date": "Monthly",
+    "location": "Phnom Penh, Cambodia",
+    "price": 50.0,
+    "image": "/cambodian-mountains-cooking-class.jpg",
+    "description":
+      "Learn to cook authentic Cambodian dishes using fresh mango ingredients in our hands-on cooking classes."
+  },
+  {
+    "id": 3,
+    "title": "Food Upcycling Workshop",
+    "date": "Weekends",
+    "location": "Kampot, Cambodia",
+    "price": 30.0,
+    "image": "/food-upcycling-workshop-cambodia.jpg",
+    "description":
+      "Discover innovative ways to transform mango seeds and peels into valuable products and reduce food waste."
+  }
+]

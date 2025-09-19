@@ -1,68 +1,11 @@
-import { Button } from "@/components/ui/Button"
-import { Card, CardContent } from "@/components/ui/Card"
-
-const featuredProducts = [
-  {
-    id: 1,
-    name: "Mango Seed Soap",
-    category: "Body Care",
-    description: "Handcrafted soap made from upcycled mango seeds with natural moisturizing properties.",
-    price: "$8.50",
-    image: "/handmade-mango-seed-soap-bar.jpg",
-  },
-  {
-    id: 2,
-    name: "Sun-Dried Mango Slices",
-    category: "Snacks",
-    description: "Premium dried mango slices, naturally sweet and packed with vitamins.",
-    price: "$12.00",
-    image: "/dried-mango-slices-in-bowl.jpg",
-  },
-  {
-    id: 3,
-    name: "Spicy Mango Chili Sauce",
-    category: "Condiments",
-    description: "Bold and flavorful sauce combining sweet mangoes with Cambodian chilies.",
-    price: "$9.50",
-    image: "/spicy-mango-chili-sauce-bottle.jpg",
-  },
-]
-
-const upcomingExperiences = [
-  {
-    id: 1,
-    title: "Annual Mango Harvest Festival",
-    date: "August 15, 2025",
-    location: "Siem Reap, Cambodia",
-    price: "$25.00",
-    priceUnit: "person",
-    image: "/mango-harvest-festival-cambodia.jpg",
-  },
-  {
-    id: 2,
-    title: "Farm-to-Table Cooking Class",
-    date: "Monthly",
-    location: "Phnom Penh, Cambodia",
-    price: "$50.00",
-    priceUnit: "person",
-    image: "/cambodian-mountains-cooking-class.jpg",
-  },
-  {
-    id: 3,
-    title: "Food Upcycling Workshop",
-    date: "Weekends",
-    location: "Kampot, Cambodia",
-    price: "$30.00",
-    priceUnit: "person",
-    image: "/food-upcycling-workshop-cambodia.jpg",
-  },
-]
+import { Button } from "@/components/ui/Button";
+import { Card, CardContent } from "@/components/ui/Card";
+import products from "@/app/data/home-page/products.json";
+import experiences from "@/app/data/home-page/experiences.json";
 
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-brand-cream">
-      
-
       <main className="pt-16">
         {/* Hero Section */}
         <section
@@ -87,7 +30,6 @@ export default function HomePage() {
             </div>
           </div>
         </section>
-
         {/* Featured Products Section */}
         <section className="py-16 px-4 max-w-7xl mx-auto">
           <div className="text-center mb-12">
@@ -97,7 +39,7 @@ export default function HomePage() {
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
-            {featuredProducts.map((product) => (
+            {products.map((product) => (
               <Card key={product.id} className="card-hover">
                 <div className="aspect-square overflow-hidden">
                   <img
@@ -119,7 +61,6 @@ export default function HomePage() {
             ))}
           </div>
         </section>
-
         {/* Farm Story Section */}
         <section className="py-16 px-4 max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -140,7 +81,6 @@ export default function HomePage() {
             </div>
           </div>
         </section>
-
         {/* Upcoming Experiences Section */}
         <section className="py-16 px-4 max-w-7xl mx-auto">
           <div className="text-center mb-12">
@@ -150,7 +90,7 @@ export default function HomePage() {
             </p>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
-            {upcomingExperiences.map((experience) => (
+            {experiences.map((experience) => (
               <Card key={experience.id} className="card-hover">
                 <div className="aspect-[3/2] overflow-hidden">
                   <img
@@ -183,7 +123,6 @@ export default function HomePage() {
             ))}
           </div>
         </section>
-
         {/* NFT Membership Section */}
         <section className="py-16 px-4 bg-brand-secondary text-white">
           <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
@@ -220,7 +159,6 @@ export default function HomePage() {
             </div>
           </div>
         </section>
-
         {/* Personalized Recommendations Section */}
         <section className="py-16 px-4 max-w-7xl mx-auto">
           <div className="text-center">
@@ -235,8 +173,6 @@ export default function HomePage() {
           </div>
         </section>
       </main>
-
-      
     </div>
-  )
+  );
 }
