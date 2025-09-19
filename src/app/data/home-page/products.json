@@ -13,7 +13,7 @@
     "category": "Snacks",
     "description": "Premium dried mango slices, naturally sweet and packed with vitamins.",
     "price": "$12.00",
-    "image": "/dried-mango-slices-in-bowl.jpg"
+    "image": "/sun-dried-mango-slices.jpg"
   },
   {
     "id": 3,
@@ -21,6 +21,6 @@
     "category": "Condiments",
     "description": "Bold and flavorful sauce combining sweet mangoes with Cambodian chilies.",
     "price": "$9.50",
-    "image": "/spicy-mango-chili-sauce-bottle.jpg"
+    "image": "/spicy-mango-chili-sauce.jpg"
   }
 ]
