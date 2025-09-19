@@ -6,13 +6,13 @@ import experiences from "@/app/data/home-page/experiences.json";
 export default function HomePage() {
   return (
     <div className="min-h-screen bg-brand-cream">
-      <main className="pt-16">
+      <main className="pt-0">
         {/* Hero Section */}
         <section
           className="relative h-screen flex items-center justify-center bg-cover bg-center"
-          style={{ backgroundImage: `url('/mango-farm-cambodia-nature.jpg')` }}
+          style={{ backgroundImage: `url('/mango-farm-cambodia-nature.jpg')`}}
         >
-          <div className="absolute inset-0 bg-black bg-opacity-30"></div>
+          <div className="absolute inset-0" style={{ backgroundColor: 'rgba(0,0,0,0.3)' }}></div>
           <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 text-balance">Taste the Sun, Share the Goodness</h1>
             <p className="text-xl md:text-2xl mb-8 text-pretty">
